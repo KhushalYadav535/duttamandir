@@ -116,9 +116,9 @@ export default function AboutMandir() {
 
               {/* Main image card */}
               <motion.div
-                style={{ y: imageY }}
                 className="relative z-10 rounded-3xl overflow-hidden"
                 style={{
+                  y: imageY,
                   aspectRatio: "3/4",
                   borderRadius: "24px",
                   boxShadow:
